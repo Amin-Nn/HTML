@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-family: "Lucida Console", monospace;
+    color: #a4c8ff;
+}
+
+.header h2 {
+    font-family: Arial, italic;
+    color: #666666;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:link {
+    color: #2fb0b4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6a7217;
+}
+
+a:hover {
+    color: #ff7474;
+    text-decoration: underline;
+}
