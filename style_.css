@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-family: "Lucida Console", monospace;
+    color: #a4c8ff;
+}
+
+.header h2 {
+    font-family: Arial, italic;
+    color: #666666;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:link {
+    color: #2fb0b4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6a7217;
+}
+
+a:hover {
+    color: #ff7474;
+    text-decoration: underline;
+}
+
+.project-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.project-controls input,
+.project-controls button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.project-item {
+    width: 100%;
+    text-align: left;
+    padding: 6px 0;
+    border-bottom: 1px solid #94994d;
+}
+
+.project-item a {
+    display: block;
+}
